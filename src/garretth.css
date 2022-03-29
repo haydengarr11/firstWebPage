@@ -1,0 +1,104 @@
+body {
+  background-color: white;
+  text-align: 20px;
+}
+
+p:nth-child(1){
+  background-color: blueviolet;
+  border: 2px solid black;
+  width: 150px;
+  text-align: right;
+}
+
+p + ul{
+  position: relative;
+  left: 14px;
+}
+
+#completed tr:first-child {
+  background-color: blue;
+}
+
+#completed tr:nth-child(odd){
+ background-color: greenyellow;
+}
+
+#completed tr:nth-child(even){
+  background-color: lavender;
+}
+
+.table{
+  margin-left: 28px;
+  border: 1px solid black;
+  margin-right: 1em;
+}
+
+#aboutme td{
+  border-collapse: collapse;
+  text-align: center;
+  border-left: 1px solid black;
+}
+
+#aboutme td:hover{
+  border-left: 2px solid blue;
+  background-color: orangered;
+  font-size: 18pt;
+}
+
+[href]:visited{
+  color: orangered;
+  background-color: blue;
+}
+p [href]:hover{
+  background-color: green;
+
+}
+[title] tr:hover{
+  font-size: 15pt;
+  font-style: italic;
+
+}
+  
+#completed table:first-child{
+  color: darkgreen;
+  background-color: darkgreen;
+}
+
+ol ul{
+  font-style: italic;
+  font-family: Courier;
+  font-size: 15pt;
+}
+
+div > h1 {
+  font-style: bold;
+  font-size: 35pt;   
+  word-wrap: break-word; 
+}
+
+h3 ~ h4 {
+  font-size: 25pt;
+  font-family: Georgia;
+}
+
+h2 + h3{
+  background-color: hsl(65, 30%, 75%);
+  color: forestgreen;
+}
+
+  
+/* when hovering over the first class in the Ongoing list the days and times will have a 
+blue background  */
+
+li:first-of-type ul > li:hover{
+  background-color: dodgerblue;
+  font-size: 20pt;
+}
+
+
+  
+  
+  
+  
+  
+  
